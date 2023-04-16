@@ -2,12 +2,32 @@
 
 # team member roles
 
-pi:
+prof:
+  icon: fa-solid fa-lightbulb
+  description: Professor
+
+labtec:
+  icon: fa-solid fa-flask
+  description: Lab Technician
+
+devtec:
+  icon: fa-solid fa-tools
+  description: Device Technician
+
+intern:
+  icon: fa-solid fa-id-badge
+  description: Intern
+
+specialist:
   icon: fa-solid fa-microscope
-  description: Principal Investigator
+  description: Specialist
+
+analist:
+  icon: fa-solid fa-microscope
+  description: Analist
 
 postdoc:
-  icon: fa-solid fa-glasses
+  icon: fa-solid fa-magnifying-glass
   description: Postdoctoral Researcher
 
 phd:
@@ -17,6 +37,10 @@ phd:
 undergrad:
   icon: fa-solid fa-user-graduate
   description: Undergraduate Student
+
+ic:
+  icon: fa-solid fa-chalkboard-user
+  description: Scientific Iniciation
 
 programmer:
   icon: fa-solid fa-code
@@ -72,8 +96,14 @@ search:
 
 # social media
 
+lattes:
+  icon: lattes.svg
+  text: Lattes
+  tooltip: Lattes
+  link: http://lattes.cnpq.br/$VALUE
+
 orcid:
-  icon: fa-brands fa-orcid
+  icon: orcid.svg
   text: ORCID
   tooltip: ORCID
   link: https://orcid.org/$VALUE
@@ -119,32 +149,6 @@ linkedin:
   text: LinkedIn
   tooltip: LinkedIn
   link: https://www.linkedin.com/in/$VALUE
-
-# alerts
-
-tip:
-  icon: fa-solid fa-lightbulb
-  color: "#d946ef"
-
-help:
-  icon: fa-solid fa-circle-question
-  color: "#6366f1"
-
-info:
-  icon: fa-solid fa-circle-info
-  color: "#0ea5e9"
-
-success:
-  icon: fa-solid fa-circle-check
-  color: "#22c55e"
-
-warning:
-  icon: fa-solid fa-circle-exclamation
-  color: "#F59E0B"
-
-error:
-  icon: fa-solid fa-ban
-  color: "#ef4444"
 
 # publications
 

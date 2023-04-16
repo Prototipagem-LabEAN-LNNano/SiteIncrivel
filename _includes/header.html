@@ -9,9 +9,7 @@
 <header
   class="background"
   style="--image: url('{{ image }}')"
-  {% if dark == true or dark == false %}
-    data-dark="{{ dark }}"
-  {% endif %}
+  data-dark="{{ dark }}"
   {% if page.url == "/" %}
     data-big
   {% endif %}
@@ -22,25 +20,27 @@
         {% if svg %}
           {{ svg | file_read }}
         {% else %}
-          <img src="{{ logo | relative_url }}" alt="logo">
+          <img src="{{ logo | relative_url }}" alt="">
         {% endif %}
       </span>
     {% endif %}
-    {% if site.logo-text != false %}
+    {% if site["logo-text"] != false %}
       <span class="title" data-tooltip="Home">
-        {% if site.title and site.show-title != false %}
+        {% if site.title %}
           <span>{{ site.title }}</span>
         {% endif %}
-        {% if site.subtitle and site.show-subtitle != false %}
+        {% if site.subtitle %}
           <span>{{ site.subtitle }}</span>
         {% endif %}
       </span>
     {% endif %}
   </a>
 
-  <input class="nav-toggle" type="checkbox" aria-label="show/hide nav">
-
-  <nav>
+  
+  <nav data-dark="inherit">
+    <button class="navbar-close">
+      <i class="fas fa-x"></i>
+    </button>
     {% assign pages = site.pages
       | where_exp: "page", "page.nav"
       | sort: "nav.order"
@@ -56,4 +56,11 @@
       {% endif %}
     {% endfor %}
   </nav>
+
+  <button class="navbar-toggle">
+    <span class="navbar-toggle-icon-bar"></span>
+    <span class="navbar-toggle-icon-bar"></span>
+    <span class="navbar-toggle-icon-bar"></span>
+  </button>
+
 </header>

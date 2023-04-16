@@ -1,21 +1,30 @@
 ---
 ---
 
-# Lab Website Template
+{% include section.html size="full" %}{% include bgvideo.html %}{% include section.html %}
 
-[Lab Website Template](https://github.com/greenelab/lab-website-template) is an easy-to-use, flexible website template for [labs](https://www.greenelab.com/).
-Spend less time worrying about managing a website and citations, and more time running your lab.
+# Latest News
+
+{% include latest-news.html %}
 
 {%
   include button.html
-  type="docs"
-  link="https://greene-lab.gitbook.io/lab-website-template-docs"
+  link="news"
+  text="See more"
+  icon="fa-solid fa-arrow-right"
+  newTab=false
 %}
+
+{% include section.html %}
+
+# Slogan do Lab
+
+Descrição de 3 linhas aprox. sobre o lab.
+
 {%
-  include button.html
-  type="github"
-  text="On GitHub"
-  link="greenelab/lab-website-template"
+  include figure.html
+  image="images/home/group-photo.png"
+  width="100%"
 %}
 
 {% include section.html %}
@@ -33,6 +42,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
   icon="fa-solid fa-arrow-right"
   flip=true
   style="bare"
+  newTab=false
 %}
 
 {% endcapture %}
@@ -51,11 +61,12 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 {%
   include button.html
-  link="projects"
-  text="Browse our projects"
+  link="facilities"
+  text="Meet the Lab"
   icon="fa-solid fa-arrow-right"
   flip=true
   style="bare"
+  newTab=false
 %}
 
 {% endcapture %}
@@ -64,10 +75,11 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
   include feature.html
   image="images/photo.jpg"
   link="projects"
-  title="Our Projects"
+  title="Our Infrastructure"
   flip=true
   style="bare"
   text=text
+  
 %}
 
 {% capture text %}
@@ -81,6 +93,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
   icon="fa-solid fa-arrow-right"
   flip=true
   style="bare"
+  newTab=false
 %}
 
 {% endcapture %}

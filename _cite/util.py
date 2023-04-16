@@ -1,7 +1,3 @@
-"""
-utility functions for cite process and plugins
-"""
-
 import subprocess
 import json
 import yaml
@@ -68,7 +64,7 @@ def list_of_dicts(data):
     check if data is list of dicts
     """
 
-    return isinstance(data, list) and all(isinstance(entry, dict) for entry in data)
+    return type(data) == list and all(type(entry) == dict for entry in data)
 
 
 def format_date(date):
@@ -148,14 +144,17 @@ def save_data(path, data):
 
 @log_cache
 @cache.memoize(name="manubot", expire=90 * (60 * 60 * 24))
-def cite_with_manubot(_id):
+def cite_with_manubot(source):
     """
-    generate citation data for source id with Manubot
+    generate citation data for source with Manubot
     """
+
+    # source id
+    id = source.get("id")
 
     # run Manubot
     try:
-        commands = ["manubot", "cite", _id, "--log-level=WARNING"]
+        commands = ["manubot", "cite", id, "--log-level=WARNING"]
         output = subprocess.Popen(commands, stdout=subprocess.PIPE).communicate()
     except Exception as e:
         log(e, 3)
@@ -171,7 +170,7 @@ def cite_with_manubot(_id):
     citation = {}
 
     # original id
-    citation["id"] = _id
+    citation["id"] = id
 
     # title
     citation["title"] = manubot.get("title", "")

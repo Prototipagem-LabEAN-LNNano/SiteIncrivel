@@ -1,6 +1,8 @@
 ---
 ---
 
+$portraitwidth: 150px;
+
 .portrait-wrapper {
   display: contents;
 }
@@ -13,36 +15,38 @@
   flex-direction: column;
   gap: 20px;
   margin: 20px;
-  width: 175px;
-  max-width: calc(100% - 20px - 20px);
+  max-width: 100%;
   text-decoration: none;
-}
-
-.portrait[data-style="small"] {
-  width: 100px;
 }
 
 .portrait[data-style="tiny"] {
   flex-direction: row;
   gap: 15px;
-  width: unset;
   text-align: left;
 }
 
 .portrait-image {
-  width: 100%;
+  width: 150px;
   aspect-ratio: 1 / 1;
   border-radius: 999px;
   object-fit: cover;
   box-shadow: var(--shadow);
 }
 
+.portrait[data-style="small"] .portrait-image {
+  width: 75px;
+}
+
 .portrait[data-style="tiny"] .portrait-image {
   width: 50px;
 }
 
-.portrait[data-style="tiny"] .portrait-role {
-  display: none;
+.portrait {
+  &[data-style="small"], &[data-style="tiny"] {
+    .portrait-role, .role {
+      display: none;
+    }
+  }
 }
 
 .portrait-text {
@@ -57,20 +61,37 @@
 }
 
 .portrait-role .icon {
-  position: absolute;
-  left: 8px;
-  top: 8px;
+  margin-right: 0.5em;
+}
+
+.portrait-role {
+  display: none;
+  @media (max-width: 700px) {
+    display: block;
+  }
+}
+
+.role {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 2em;
-  height: 2em;
+  position: absolute;
+  left: calc(0.13 * $portraitwidth);
+  top: calc(0.13 * $portraitwidth);
+  margin: 0;
+  width: calc(0.25 * $portraitwidth);
+  height: calc(0.25 * $portraitwidth);
+  font-size: calc(16 * $portraitwidth / 150);
+  background: var(--light-gray);
+  color: var(--text);
   border-radius: 999px;
-  background: var(--background);
+  transform: translate(-50%, -50%);
   box-shadow: var(--shadow);
+  @media (max-width: 700px) {
+    display: none;
+  }
 }
 
-.portrait[data-style="small"] .portrait-role .icon {
-  left: -2px;
-  top: -2px;
+.always-visible {
+  display: block;
 }

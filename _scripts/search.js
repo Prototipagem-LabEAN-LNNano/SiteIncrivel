@@ -86,28 +86,38 @@
       if (elementMatches(element, parts)) {
         element.style.display = "";
         x++;
-      } else element.style.display = "none";
+        highlightTerms(element, parts);
+      } else {
+        element.style.display = "none";
+      }
     }
 
     return [x, n, tags];
   };
 
-  // highlight search terms
-  const highlightMatches = async ({ terms, phrases }) => {
+  // reset highlights
+  const resetHighlights = () => {
     // make sure Mark library available
     if (typeof Mark === "undefined") return;
 
-    // reset
     new Mark(document.body).unmark();
+  };
 
-    // limit number of highlights to avoid slowdown
-    let counter = 0;
-    const filter = () => counter++ < 100;
+  // highlight search terms in element
+  const highlightTerms = async (element, { terms, phrases }) => {
+    // make sure Mark library available
+    if (typeof Mark === "undefined") return;
 
-    // highlight terms and phrases
-    new Mark(elementSelector)
-      .mark(terms, { separateWordSearch: true, filter })
-      .mark(phrases, { separateWordSearch: false, filter });
+    // highlight terms
+    // to avoid slowdown, only highlight if more than a few letters searched
+    for (const term of terms)
+      if (term.length > 2)
+        new Mark(element).mark(term, { separateWordSearch: true });
+
+    // highlight phrases
+    for (const phrase of phrases)
+      if (phrase.length > 2)
+        new Mark(element).mark(phrase, { separateWordSearch: false });
   };
 
   // update search box based on query
@@ -162,12 +172,12 @@
 
   // run search with query
   const runSearch = (query = "") => {
+    resetHighlights();
     const parts = splitQuery(query);
     const [x, n] = filterElements(parts);
     updateSearchBox(query);
     updateInfoBox(query, x, n);
     updateTags(query);
-    highlightMatches(parts);
   };
 
   // update url based on query

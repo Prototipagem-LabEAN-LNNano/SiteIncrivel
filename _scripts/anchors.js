@@ -12,36 +12,33 @@
       // create anchor link
       const link = document.createElement("a");
       link.classList.add("icon", "fa-solid", "fa-link", "anchor");
-      link.href = "#" + heading.id;
+      // link.href = "#" + heading.id;
       link.setAttribute("aria-label", "link to this section");
       heading.append(link);
 
-      // if first heading in the section, move id to parent section
-      if (heading.matches("section > :first-child")) {
-        heading.parentElement.id = heading.id;
+      link.setAttribute("data-clipboard-text", window.location.href.split("#")[0] + "#" + heading.id);
+      clipboardTippy(link)
+
+      // if first heading in the section, move id from heading to parent section
+      const parent = heading.parentElement;
+      if (parent.matches("section")) {
+        parent.id = heading.id;
         heading.removeAttribute("id");
       }
     }
   };
 
-  // scroll to target of url hash
   const scrollToTarget = () => {
     const id = window.location.hash.replace("#", "");
     const target = document.getElementById(id);
-
     if (!target) return;
     const offset = document.querySelector("header").clientHeight || 0;
-    window.scrollTo({
-      top: target.getBoundingClientRect().top + window.scrollY - offset,
-      behavior: "smooth",
-    });
+    window.scrollTo({ top: target.getBoundingClientRect().top + window.scrollY - offset });
   };
 
   // after page loads
   window.addEventListener("load", onLoad);
   window.addEventListener("load", scrollToTarget);
-  window.addEventListener("tagsfetched", scrollToTarget);
-
   // when hash nav happens
   window.addEventListener("hashchange", scrollToTarget);
 }

@@ -1,7 +1,3 @@
-"""
-cite process to convert sources and metasources into full citations
-"""
-
 from importlib import import_module
 from pathlib import Path
 from dotenv import load_dotenv
@@ -89,13 +85,20 @@ for plugin in plugins:
 
 # merge sources with matching (non-blank) ids
 for a in range(0, len(sources)):
-    _id = sources[a].get("id")
-    if not _id:
+    id = sources[a].get("id")
+    if not id:
         continue
     for b in range(a + 1, len(sources)):
-        if sources[b].get("id") == _id:
-            sources[a].update(sources[b])
-            sources[b] = {}
+        idb = sources[b].get("id")
+        if not idb:
+            continue
+        if idb.lower() == id.lower():
+            if sources[b].get("file") == "sources.yaml":
+                sources[a].update(sources[b])
+                sources[b] = {}
+            else:
+                sources[b].update(sources[a])
+                sources[a] = {}
 sources = [entry for entry in sources if entry]
 
 
@@ -117,15 +120,15 @@ for index, source in enumerate(sources):
     citation = {}
 
     # source id
-    _id = source.get("id", "").strip()
-
+    id = source.get("id", "").strip()
+    
     # Manubot doesn't work without an id
-    if _id:
+    if id:
         log("Using Manubot to generate citation", 1)
 
         try:
             # run Manubot and set citation
-            citation = cite_with_manubot(_id)
+            citation = cite_with_manubot(source)
 
         except Exception as e:
             # if manually-entered source, throw error on cite failure
@@ -136,6 +139,7 @@ for index, source in enumerate(sources):
             # (Manubot might not know how to cite every type of source from orcid, e.g.)
             else:
                 log(e, 3, "WARNING")
+                continue
 
     # preserve fields from input source, overriding existing fields
     citation.update(source)

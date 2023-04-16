@@ -7,16 +7,9 @@
 
 <div class="citation">
   {% if include.style == "rich" %}
-    <a
-      {% if citation.link %}
-        href="{{ citation.link | relative_url }}"
-      {% endif %}
-      class="citation-image"
-      aria-label="{{ citation.title | default: "citation link" }}"
-    >
+    <a href="{{ citation.link | relative_url }}" class="citation-image" target="_blank">
       <img
         src="{{ citation.image | relative_url }}"
-        alt="{{ citation.title | default: "citation image" }}"
         loading="lazy"
         {% include fallback.html %}
       >
@@ -27,38 +20,27 @@
     {% assign type = site.data.types[citation.type] %}
     {% include icon.html icon=type.icon %}
 
-    <a
-      {% if citation.link %}
-        href="{{ citation.link | relative_url }}"
-      {% endif %}
-      class="citation-title"
-    >
-      {{ citation.title | default: "[no title info]" }}
+    <a href="{{ citation.link }}" class="citation-title" target="_blank">
+      {{ citation.title }}
     </a>
 
-    <div
-      class="citation-authors"
-      {% if citation.authors.size > 10 %}
-        data-tooltip="{{ citation.authors | join: ", " }} "
-      {% endif %}
-      tabindex="0"
-    >
+    <div class="citation-authors">
       {{
         citation.authors
         | join: ","
         | split: ","
         | array_carve: 5
-        | join: ", "
+        | join: "&nbsp; · &nbsp;"
         | default: "[no author info]"
       }}
     </div>
 
     <div class="citation-details">
       {{ citation.publisher | default: "[no publisher info]" }}
-      &nbsp; · &nbsp;
+      &nbsp; | &nbsp;
       {{ citation.date | default: "[no date info]" | date: "%d %b %Y" }}
-      &nbsp; · &nbsp;
-      {{ citation.id | default: "[no id info]" }}
+      <!-- &nbsp; · &nbsp;
+      {{ citation.id | default: "[no id info]" }} -->
     </div>
 
     {% if include.style == "rich" %}

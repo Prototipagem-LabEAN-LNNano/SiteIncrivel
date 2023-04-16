@@ -3,8 +3,11 @@
 
 $logo-big: 80px;
 $logo: 40px;
-$big-padding: 100px;
-$collapse: 700px;
+$big-padding: 35px;
+$collapse: 900px;
+$limit-subtitle-big: 1350px;
+$limit-sidebyside-big: 1100px;
+$limit-subtitle-normal: 1200px;
 $sticky: true;
 
 header {
@@ -43,6 +46,8 @@ header a {
 }
 
 .logo > * {
+  object-fit: contain;
+  width: auto;
   height: 100%;
 }
 
@@ -51,7 +56,7 @@ header a {
   justify-content: flex-start;
   align-items: baseline;
   flex-wrap: wrap;
-  gap: 5px;
+  gap: 15px;
   min-width: 0;
   font-family: var(--title);
   text-align: left;
@@ -64,36 +69,8 @@ header a {
 
 // subtitle
 .title > *:last-child {
-  opacity: 0.65;
+  color: var(--gray);
   font-weight: var(--thin);
-}
-
-.nav-toggle {
-  display: none;
-  position: relative;
-  width: 30px;
-  height: 30px;
-  margin: 0;
-  color: var(--text);
-  -webkit-appearance: none;
-  appearance: none;
-  transition-property: background;
-}
-
-.nav-toggle:after {
-  content: "\f0c9";
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  color: var(--text);
-  font-size: 15px;
-  font-family: "Font Awesome 6 Free";
-  font-weight: 900;
-  transform: translate(-50%, -50%);
-}
-
-.nav-toggle:checked:after {
-  content: "\f00d";
 }
 
 nav {
@@ -107,29 +84,89 @@ nav {
 }
 
 nav > a {
-  padding: 5px;
+  padding: 9px;
 }
 
 nav > a:hover {
   color: var(--primary);
 }
 
-header:not([data-big]) {
+header {
+
+  .navbar-close {
+    display: none;
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+  }
+  
+  .navbar-toggle {
+    display: none;
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+  }
+  
+  .navbar-toggle-icon-bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    background-color: var(--text);
+    margin: 5px 0;
+  }
+
   @media (max-width: $collapse) {
+    flex-direction: row !important;
     justify-content: flex-end;
 
     .nav-toggle {
       display: flex;
     }
 
-    .nav-toggle:not(:checked) + nav {
-      display: none;
-    }
-
     nav {
       align-items: flex-end;
       flex-direction: column;
-      width: 100%;
+
+      position: fixed;
+      top: 0px;
+      right: -100%;
+      padding: 100px 50px !important;
+      height: 100vh;
+      background-color: var(--background);
+      padding: 10px;
+      transition: right 0.3s ease-in-out;
+      justify-content: initial;
+      -webkit-box-shadow: -10px 0px 24px -7px rgba(0,0,0,0.75);
+      -moz-box-shadow: -10px 0px 24px -7px rgba(0,0,0,0.75);
+      box-shadow: -10px 0px 24px -7px rgba(0,0,0,0.75);
+
+      &:hover .link {
+        opacity: 1;
+      }
+
+      .navbar-close {
+        display: block;
+        color: var(--text);
+        position: absolute;
+        right: 30px;
+        top: 30px;
+      }
+    }
+    
+    nav.show {
+      right: 0;
+    }
+
+    .navbar-toggle {
+      display: block;
+    }
+  }
+
+  @media (max-width: $limit-subtitle-normal) {
+    .title > *:not(:first-child) {
+      display: none;
     }
   }
 }
@@ -137,17 +174,9 @@ header:not([data-big]) {
 header[data-big] {
   justify-content: center;
   align-items: center;
-  flex-direction: column;
+  background-color: rgba(0,0,0,0.5);
+  backdrop-filter: blur(3px);
   padding: $big-padding 20px;
-
-  @if $sticky {
-    top: unset;
-  }
-
-  .home {
-    flex-direction: column;
-    flex-grow: 0;
-  }
 
   .logo {
     height: $logo-big;
@@ -155,8 +184,6 @@ header[data-big] {
 
   .title {
     flex-direction: column;
-    align-items: center;
-    text-align: center;
   }
 
   .title > *:first-child {
@@ -166,4 +193,21 @@ header[data-big] {
   .title > *:last-child {
     font-size: var(--large);
   }
+
+  nav {
+    font-size: 1.25em;
+  }
+
+  @media (max-width: $limit-subtitle-big) {
+    .title > *:not(:first-child) {
+      display: none;
+    }
+  }
+  
+  @media (max-width: $limit-sidebyside-big) {
+    flex-direction: column;
+    justify-content: center;
+  }
+  
 }
+

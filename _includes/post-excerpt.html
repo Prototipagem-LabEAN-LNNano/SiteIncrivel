@@ -13,23 +13,22 @@
     include post-info.html
     author=post.author
     published=post.date
-    updated=post.last_modified_at
     tags=post.tags
   %}
 
+  {% comment %}
+    removed
+    updated=post.last_modified_at
+  {% endcomment %}
+
   {% assign excerpt = post.content
     | default: ""
-    | regex_scan: "<!-- excerpt start -->(.*)<!-- excerpt end -->", true
+    | regex_scan: "<!-- excerpt start -->(.*)<!-- excerpt end -->"
     | default: post.excerpt
     | default: ""
     | strip_html
   %}
-  {% assign search = post.content
-    | strip_html 
-    | strip_newlines
-    | regex_strip
-  %}
-  <p data-search="{{ search }}">
+  <p data-search="{{ post.content | strip_html | strip_newlines }}">
     {{ excerpt }}
   </p>
 </div>
