@@ -1,1 +1,1 @@
-Sitemap: /SiteIncrivel/sitemap.xml
+Sitemap: /site-labean/sitemap.xml
