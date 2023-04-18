@@ -1,0 +1,65 @@
+{% assign emptyarray = "" | split: "," %}
+{% assign data = site.data["posts"]
+  | default: site["posts"]
+  | default: emptyarray
+%}
+
+{% assign data = data | sort: "date" | reverse %}
+
+{% assign cards = "" | split: "" %}
+{% for d in data | limit: 3 %}
+  {% assign published = d.date | date: "%B %d, %Y" %}
+  {% capture date %}
+    <div class="post-info">
+      <span data-tooltip="Published on">
+        {% include icon.html icon="fa-regular fa-calendar" %}
+        <span>{{ published }}</span>
+      </span>
+    </div>
+  {% endcapture %}
+
+  {% capture button %}
+    {% include button.html
+      link=d.url
+      text="Read more"
+      icon="fa-solid fa-arrow-right"
+      flip=true
+      style="bare"
+      newTab=false
+    %}
+  {% endcapture %}
+
+  {% capture card %}
+    {% include card.html
+      title=d.title
+      subtitle=date
+      image=d.image
+      description=d.description
+      link=d.url
+      button=button
+    %}
+  {% endcapture %}
+
+  {% assign cards = cards | push: card %}
+{% endfor %}
+
+{% capture col1 %}
+  {{ cards[0] }}
+{% endcapture %}
+
+{% capture col2 %}
+  {{ cards[1] }}
+{% endcapture %}
+
+{% capture col3 %}
+  {{ cards[2] }}
+{% endcapture %}
+
+<div class="latest-news-container">
+  {%
+    include cols.html
+    col1=col1
+    col2=col2
+    col3=col3
+  %}
+</div>
