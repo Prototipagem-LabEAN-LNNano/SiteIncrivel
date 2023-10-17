@@ -667,9 +667,10 @@
   publisher: Springer International Publishing
   date: '2018-01-01'
   link: https://doi.org/gsv84m
-  ignore: true
+  orcid: 0000-0003-2036-9123
   plugin: sources.py
   file: sources.yaml
+  ignore: true
 - id: doi:10.1039/C7CP04827K
   title: High temperature activation of hematite nanorods for sunlight driven water
     oxidation reaction
@@ -695,15 +696,6 @@
   publisher: Nanoenergy
   date: '2017-09-01'
   link: https://doi.org/gsv84n
-  orcid: 0000-0003-2036-9123
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1007/978-3-319-62800-4
-  title: Nanoenergy
-  authors: []
-  publisher: Springer International Publishing
-  date: '2018-01-01'
-  link: https://doi.org/gsv84m
   orcid: 0000-0003-2036-9123
   plugin: orcid.py
   file: orcid.yaml
@@ -949,9 +941,10 @@
   publisher: Springer Berlin Heidelberg
   date: '2013-01-01'
   link: https://doi.org/grvhrh
-  ignore: true
+  orcid: 0000-0003-2036-9123
   plugin: sources.py
   file: sources.yaml
+  ignore: true
 - id: doi:10.1371/journal.pone.0076857
   title: UV-Light Effects on Cytochrome C Modulated by the Aggregation State of Phenothiazines
   authors:
@@ -1001,15 +994,6 @@
   plugin: sources.py
   file: sources.yaml
   image: https://ars.els-cdn.com/content/image/1-s2.0-S0378775312001929-gr1.jpg
-- id: doi:10.1007/978-3-642-31736-1
-  title: Nanoenergy
-  authors: []
-  publisher: Springer Berlin Heidelberg
-  date: '2013-01-01'
-  link: https://doi.org/grvhrh
-  orcid: 0000-0003-2036-9123
-  plugin: orcid.py
-  file: orcid.yaml
 - id: doi:10.1021/am301425e
   title: 'Vertically Oriented Iron Oxide Films Produced by Hydrothermal Process: Effect
     of Thermal Treatment on the Physical Chemical Properties'

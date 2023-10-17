@@ -106,12 +106,13 @@ for a in range(0, len(sources)):
             continue
         if a_id.lower() == b_id.lower():
             log(f"Found duplicate {b_id}", 2)
-            if get_safe(sources, f"{b}.file", "") == "sources.yaml":
-                sources[a].update(sources[b])
-                sources[b] = {}
-            else:
+            if get_safe(sources, f"{a}.file", "") == "sources.yaml":
                 sources[b].update(sources[a])
                 sources[a] = {}
+                break
+            else:
+                sources[a].update(sources[b])
+                sources[b] = {}
 sources = [entry for entry in sources if entry]
 
 
