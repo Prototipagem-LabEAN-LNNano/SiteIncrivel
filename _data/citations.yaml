@@ -1284,10 +1284,8 @@
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.1002/cnma.202100510
-  title: "Binary Transition Metal NiFeO\n            <sub>x</sub>\n            and\
-    \ CoFeO\n            <sub>x</sub>\n            Cocatalysts Boost the Photodriven\
-    \ Water Oxidation over Fe\n            <sub>2</sub>\n            TiO\n       \
-    \     <sub>5</sub>\n            Nanoparticles"
+  title: Binary Transition Metal NiFeO<sub>x</sub> and CoFeO<sub>x</sub> Cocatalysts
+    Boost the Photodriven Water Oxidation over Fe<sub>2</sub>TiO<sub>5</sub> Nanoparticles
   authors:
   - Mauricio A. Melo
   - Higor A. Centurion
@@ -1298,23 +1296,6 @@
   date: '2022-02-25'
   link: https://doi.org/grt3hb
   image: https://onlinelibrary.wiley.com/cms/asset/11e367a3-a174-4e2c-852e-7d6b622f197f/cnma202100510-toc-0001-m.jpg
-  plugin: sources.py
-  file: sources.yaml
-- id: doi:10.1149/2162-8777/ac6114
-  title: On the Effect of Thermal Processing on Sn Diffusion and Efficiency Enhancement
-    in Hematite/FTO Photoanodes
-  authors:
-  - "Ingrid Rodr\xEDguez-Guti\xE9rrez"
-  - "Beatriz Mouri\xF1o"
-  - "Andr\xE9 L. M. Freitas"
-  - Carlos A. R. Costa
-  - Elcio L Pires
-  - "Renato V. Gon\xE7alves"
-  - Lionel Vayssieres
-  - Flavio L. Souza
-  publisher: ECS Journal of Solid State Science and Technology
-  date: '2022-04-01'
-  link: https://doi.org/grt3hc
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.3390/nano12121957
