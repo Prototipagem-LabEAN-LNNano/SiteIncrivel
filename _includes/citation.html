@@ -7,9 +7,17 @@
 
 <div class="citation">
   {% if include.style == "rich" %}
-    <a href="{{ citation.link | relative_url }}" class="citation-image" target="_blank">
+    <a
+      {% if citation.link %}
+        href="{{ citation.link | relative_url }}"
+      {% endif %}
+      class="citation-image"
+      target="_blank"
+      aria-label="{{ citation.title | default: "citation link" }}"
+    >
       <img
         src="{{ citation.image | relative_url }}"
+        alt="{{ citation.title | default: "citation image" }}"
         loading="lazy"
         {% include fallback.html %}
       >
@@ -20,11 +28,23 @@
     {% assign type = site.data.types[citation.type] %}
     {% include icon.html icon=type.icon %}
 
-    <a href="{{ citation.link }}" class="citation-title" target="_blank">
-      {{ citation.title }}
+    <a
+      {% if citation.link %}
+        href="{{ citation.link | relative_url }}"
+      {% endif %}
+      class="citation-title"
+      target="_blank"
+    >
+      {{ citation.title | default: "[no title info]" }}
     </a>
 
-    <div class="citation-authors">
+    <div
+      class="citation-authors"
+      {% if citation.authors.size > 10 %}
+        data-tooltip="{{ citation.authors | join: ", " }} "
+      {% endif %}
+      tabindex="0"
+    >
       {{
         citation.authors
         | join: ","

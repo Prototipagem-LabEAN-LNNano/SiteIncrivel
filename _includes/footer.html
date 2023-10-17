@@ -4,7 +4,9 @@
 <footer
   class="background"
   style="--image: url('{{ image }}')"
-  data-dark="{{ dark }}"
+  {% if dark == true or dark == false %}
+    data-dark="{{ dark }}"
+  {% endif %}
   data-size="wide"
 >
   <!--
@@ -38,6 +40,7 @@
     type="checkbox"
     class="dark-toggle"
     data-tooltip="Switch theme"
+    aria-label="Switch theme (light/dark)"
     oninput="onDarkToggleChange(event)"
   >
 </footer>

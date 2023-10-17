@@ -246,7 +246,6 @@
 #    - tag teste
 
 - id: doi:10.1557/jmr.2013.302
-  image: images/research/urn_cambridge.org_id_binary-alt_20160922085019-92071-mediumThumb-S0884291413003026_fig1g.jpg
 #  tags:
 #    - tag teste
 
@@ -365,3 +364,9 @@
 - id: doi:10.1149/MA2019-02/41/1913
 
 - id: doi:10.1557/PROC-822-S3.1
+
+- id: doi:10.1007/978-3-642-31736-1
+  ignore: true
+
+- id: doi:10.1007/978-3-319-62800-4
+  ignore: true
