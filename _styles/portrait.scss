@@ -22,6 +22,7 @@ $portraitwidth: 150px;
 .portrait[data-style="tiny"] {
   flex-direction: row;
   gap: 15px;
+  width: unset;
   text-align: left;
 }
 
