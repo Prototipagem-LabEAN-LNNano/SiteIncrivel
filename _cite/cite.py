@@ -89,11 +89,12 @@ for a in range(0, len(sources)):
     if not id:
         continue
     for b in range(a + 1, len(sources)):
-        idb = sources[b].get("id")
-        if not idb:
+        b_id = get_safe(sources, f"{b}.id", "")
+        if not b_id:
             continue
-        if idb.lower() == id.lower():
-            if sources[b].get("file") == "sources.yaml":
+        if a_id.lower() == b_id.lower():
+            log(f"Found duplicate {b_id}", 2)
+            if get_safe(sources, f"{b}.file", "") == "sources.yaml":
                 sources[a].update(sources[b])
                 sources[b] = {}
             else:
