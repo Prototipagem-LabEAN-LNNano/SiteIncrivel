@@ -47,6 +47,7 @@ header a {
 }
 
 .title > *:first-child {
+  margin-right: 10px;
   font-size: var(--large);
 }
 
