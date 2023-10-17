@@ -20,10 +20,8 @@
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.1002/cnma.202100510
-  title: "Binary Transition Metal NiFeO\n            <sub>x</sub>\n            and\
-    \ CoFeO\n            <sub>x</sub>\n            Cocatalysts Boost the Photodriven\
-    \ Water Oxidation over Fe\n            <sub>2</sub>\n            TiO\n       \
-    \     <sub>5</sub>\n            Nanoparticles"
+  title: Binary Transition Metal NiFeO<sub>x</sub> and CoFeO<sub>x</sub> Cocatalysts
+    Boost the Photodriven Water Oxidation over Fe<sub>2</sub>TiO<sub>5</sub> Nanoparticles
   authors:
   - Mauricio A. Melo
   - Higor A. Centurion
@@ -170,9 +168,9 @@
   title: "Tailoring a Zinc Oxide Nanorod Surface by Adding an Earth\u2010Abundant\
     \ Cocatalyst for Induced Sunlight Water Oxidation"
   authors:
-  - Rafael M. Almeida
+  - Rafael M. de Almeida
   - Victoria C. Ferrari
-  - Juliana S. Souza
+  - Juliana dos S. Souza
   - Flavio L. Souza
   - Wendel A. Alves
   publisher: ChemPhysChem
@@ -317,7 +315,7 @@
   - F. L. Souza
   - L. Vayssieres
   publisher: Journal of Applied Physics
-  date: '2020-08-14'
+  date: '2020-08-13'
   link: https://doi.org/gqzgqx
   image: https://aip.scitation.org/action/showOpenGraphArticleImage?doi=10.1063/5.0015519&id=images/medium/5.0015519.figures.online.highlight_f1.jpg
   plugin: sources.py
@@ -768,8 +766,8 @@
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.1002/cphc.201300054
-  title: Large-Area Plasmonic Substrate of Silver-Coated Iron Oxide Nanorod Arrays
-    for Plasmon-Enhanced Spectroscopy
+  title: "Large\u2010Area Plasmonic Substrate of Silver\u2010Coated Iron Oxide Nanorod\
+    \ Arrays for Plasmon\u2010Enhanced Spectroscopy"
   authors:
   - Waldemir Moura Carvalho
   - Diogo Volpati
@@ -941,7 +939,7 @@
   - Elson Longo
   - Edson Roberto Leite
   publisher: ChemPhysChem
-  date: '2008-02-01'
+  date: '2008-01-24'
   link: https://doi.org/bp89f5
   image: https://chemistry-europe.onlinelibrary.wiley.com/cms/asset/71d90234-af61-4970-913c-fd9270041713/mcontent.gif
   plugin: sources.py
@@ -966,7 +964,7 @@
   - Elson Longo
   - Edson R. Leite
   publisher: ChemPhysChem
-  date: '2007-08-24'
+  date: '2007-08-15'
   link: https://doi.org/c5smbm
   image: https://chemistry-europe.onlinelibrary.wiley.com/cms/asset/4dea3080-81a3-4313-8ead-0aa34cf1baea/mcontent.gif
   plugin: sources.py
@@ -1031,7 +1029,7 @@
   - Edson R. Leite
   - Masato Kakihana
   publisher: Journal of Applied Physics
-  date: '2004-08-15'
+  date: '2004-08-02'
   link: https://doi.org/fqnwrs
   image: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsh7wpgm2qytDLl0_BnpTSApbQUgJDUNFxElFx3IPiXHIqnEvGinukyaoR7B2K8BhaBiI&usqp=CAU
   plugin: sources.py
