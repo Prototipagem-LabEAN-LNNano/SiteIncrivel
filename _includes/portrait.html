@@ -13,13 +13,33 @@
     data-style="{{ include.style }}"
     aria-label="{{ member.name | default: "member link" }}"
   >
-    <img
-      src="{{ member.image | relative_url }}"
-      class="portrait-image"
-      alt="member portrait"
-      loading="lazy"
-      {% include fallback.html %}
-    >
+    <div style="position: relative;">
+        
+      <img
+        src="{{ member.image | relative_url }}"
+        class="portrait-image"
+        alt="member portrait"
+        loading="lazy"
+        {% include fallback.html %}
+      >
+      
+      {% if include.simplerole != false -%}
+
+        {%- assign role = member.role | default: "" -%}
+        {%- assign type = site.data.types[role] -%}
+
+        {% if type -%}
+          {%- assign icon = type.icon -%}
+          <div class="role" data-tooltip="{{ type.description }}">
+            {%- if icon -%}
+              <i class="{{ icon }}"></i>
+            {%- endif -%}
+          </div>
+        {%- endif %}
+      
+      {% endif %}
+    
+    </div>
 
     {% if member.name or member.role or member.description %}
       <span class="portrait-text">
@@ -28,27 +48,11 @@
             {{ member.name }}
           </span>
         {% endif %}
-
-        {% if include.simplerole != false -%}
-
-          {%- assign role = member.role | default: "" -%}
-          {%- assign type = site.data.types[role] -%}
-      
-          {% if type -%}
-            {%- assign icon = type.icon -%}
-            <div class="role" data-tooltip="{{ type.description }}">
-              {%- if icon -%}
-                <i class="{{ icon }}"></i>
-              {%- endif -%}
-            </div>
-          {%- endif %}
-        
-        {% endif %}
         
         {% if member.role or member.description %}
           <span class="portrait-role {% if include.simplerole == false -%} always-visible {% endif -%}">
             {% assign type = site.data.types[member.role] %}
-            {% include icon.html icon=type.icon %}
+            <!-- {% include icon.html icon=type.icon %} -->
             <span>{{ member.description | default: type.description }}</span>
           </span>
         {% endif %}

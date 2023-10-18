@@ -66,10 +66,7 @@ $portraitwidth: 150px;
 }
 
 .portrait-role {
-  display: none;
-  @media (max-width: 700px) {
-    display: block;
-  }
+  display: block;
 }
 
 .role {
@@ -88,9 +85,6 @@ $portraitwidth: 150px;
   border-radius: 999px;
   transform: translate(-50%, -50%);
   box-shadow: var(--shadow);
-  @media (max-width: 700px) {
-    display: none;
-  }
 }
 
 .always-visible {
