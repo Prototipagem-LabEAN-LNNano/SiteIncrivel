@@ -56,7 +56,6 @@ header a {
   justify-content: flex-start;
   align-items: baseline;
   flex-wrap: wrap;
-  gap: 15px;
   min-width: 0;
   font-family: var(--title);
   text-align: left;
@@ -64,6 +63,7 @@ header a {
 
 // main title
 .title > *:first-child {
+  margin-right: 10px;
   font-size: var(--large);
 }
 
