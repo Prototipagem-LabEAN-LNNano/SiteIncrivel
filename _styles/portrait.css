@@ -57,12 +57,7 @@
 }
 
 .portrait-role {
-  display: none;
-}
-@media (max-width: 700px) {
-  .portrait-role {
-    display: block;
-  }
+  display: block;
 }
 
 .role {
@@ -81,11 +76,6 @@
   border-radius: 999px;
   transform: translate(-50%, -50%);
   box-shadow: var(--shadow);
-}
-@media (max-width: 700px) {
-  .role {
-    display: none;
-  }
 }
 
 .always-visible {
