@@ -32,7 +32,7 @@ pi:
 
 postdoc:
   icon: fa-solid fa-magnifying-glass
-  description: Postdoctoral Researcher
+  description: Postdoc Researcher
 
 phd:
   icon: fa-solid fa-graduation-cap
