@@ -1,5 +1,73 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
+- id: doi:10.1016/j.matlet.2023.135781
+  title: Charge dynamics in semiconductors for photoelectrochemical water splitting
+  authors:
+  - Ana M.S. Santos
+  - "Ingrid Rodr\xEDguez-Guti\xE9rrez"
+  - Gustavo M. Morishita
+  - Ricardo M. Lopes
+  - Flavio L. Souza
+  publisher: Materials Letters
+  date: '2024-02-01'
+  link: https://doi.org/gtgzvs
+  orcid: 0000-0003-2036-9123
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/j.mtchem.2023.101784
+  title: Unraveling the impact of tetravalent and pentavalent ions on the charge dynamics
+    of hematite photoelectrodes for solar water splitting
+  authors:
+  - Brenda R. Lima
+  - Ingrid Rodriguez-Gutierrez
+  - "Nath\xE1lia C. Verissimo"
+  - "\xC2ngela Albuquerque"
+  - Gabriel T. Santos
+  - Jefferson Bettini
+  - Flavio L. Souza
+  publisher: Materials Today Chemistry
+  date: '2023-12-01'
+  link: https://doi.org/gtgzvt
+  orcid: 0000-0003-2036-9123
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1021/acsami.3c10516
+  title: 'Self-Diffusion versus Intentional Doping: Beneficial and Damaging Impact
+    on Hematite Photoanode Interfaces'
+  authors:
+  - Lara M. Daminelli
+  - "Ingrid Rodr\xEDguez-Gutierrez"
+  - Fabio A. Pires
+  - Gabriel T. dos Santos
+  - Jefferson Bettini
+  - Flavio L. Souza
+  publisher: ACS Applied Materials &amp; Interfaces
+  date: '2023-11-09'
+  link: https://doi.org/gtgzvv
+  orcid: 0000-0003-2036-9123
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.21203/rs.3.rs-3587083/v1
+  title: Towards sustainable photoelectrodes for solar to hydrogen conversion through
+    the combination of earth-abundant elements
+  authors:
+  - Flavio de Souza
+  - "Nath\xE1lia Verissimo"
+  - Fabio Pires
+  - "Ingrid Rodr\xEDguez-Guti\xE9rrez"
+  - Jefferson Bettini
+  - Tanna Fiuza
+  - Cleyton Biffe
+  - Fabiano Montoro
+  - Gabriel Schleder
+  - Ricardo Castro
+  - Edson leite
+  publisher: Research Square Platform LLC
+  date: '2023-11-14'
+  link: https://doi.org/gtgzvw
+  orcid: 0000-0003-2036-9123
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.1016/j.mtener.2023.101399
   title: Interfacial engineering of hematite photoanodes toward high water splitting
     performance
