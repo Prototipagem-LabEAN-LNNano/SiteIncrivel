@@ -1,6 +1,6 @@
 ---
 title: Post Teste/Tutorial
-tags:
+tags: exemplo
 author: Thiago
 member:
 image: images/posts/example-post-4/img.png
