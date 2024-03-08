@@ -1,4 +1,4 @@
-Visit **[prototipagem-labean-lnnano.github.io/site-labean](https://prototipagem-labean-lnnano.github.io/site-labean)** 🚀
+Visit **[labean.com.br](http://labean.com.br)** 🚀
 
 <h1 align="center">Lab Website Template</h1>
 <p align="center">
