@@ -1,1 +1,1 @@
-Sitemap: /site-labean/sitemap.xml
+Sitemap: /sitemap.xml
