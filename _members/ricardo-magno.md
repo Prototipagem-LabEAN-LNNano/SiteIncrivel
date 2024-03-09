@@ -2,7 +2,7 @@
 name: Ricardo Magno
 image: images/team/ricardo.jpg
 role: postdoc
-ex-member: false
+ex-member: true
 aliases:
   - Ricardo M. L.
   - Ricardo M. L. Silva
