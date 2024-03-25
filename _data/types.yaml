@@ -8,23 +8,23 @@ prof:
 
 labtec:
   icon: fa-solid fa-flask
-  description: Lab Technician
+  description: Técnico de Laboratório
 
 devtec:
   icon: fa-solid fa-tools
-  description: Device Technician
+  description: Técnico de Protótipos
 
 intern:
   icon: fa-solid fa-id-badge
-  description: Intern
+  description: Estágio
 
 specialist:
   icon: fa-solid fa-microscope
-  description: Specialist
+  description: Especialista
 
 analist:
   icon: fa-solid fa-microscope
-  description: Analist
+  description: Analista
 
 pi:
   icon: fa-solid fa-microscope
@@ -32,11 +32,11 @@ pi:
 
 postdoc:
   icon: fa-solid fa-magnifying-glass
-  description: Postdoc Researcher
+  description: Pós-Doutorado
 
 phd:
   icon: fa-solid fa-graduation-cap
-  description: PhD Student
+  description: Doutorado
 
 undergrad:
   icon: fa-solid fa-user-graduate
@@ -44,7 +44,7 @@ undergrad:
 
 ic:
   icon: fa-solid fa-chalkboard-user
-  description: Scientific Iniciation
+  description: Iniciação Científica
 
 programmer:
   icon: fa-solid fa-code

@@ -5,11 +5,9 @@ nav:
   tooltip: Conheça o time
 ---
 
-# {% include icon.html icon="fa-solid fa-users" %}Team
+# {% include icon.html icon="fa-solid fa-users" %}Time
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+Nosso laboratório é composto por uma equipe altamente engajada e colaborativa de pesquisadores. Reconhecemos que equipes diversas realizam pesquisas melhores. A equipe inclui pós-doutorandos, estudantes em todos os níveis, funcionários e colabores externos.
 
 {% include section.html %}
 
@@ -27,19 +25,15 @@ nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
 ### Alumni
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+Descubra os talentos que fizeram parte da nossa jornada! Aqui, trazemos nossos ex-membros que tiveram valiosa contribuição aos nossos projetos.
 
-{% include list.html data="members" component="portrait" style="small" filters="ex-member:true" %}
+{% include list.html data="members" component="portrait" filters="ex-member:true" style="small" %}
 
 {% include section.html %}
 
 ### Apoio
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+As bases que sustentam nossas iniciativas! Nesta seção, destacamos as fundações de apoio que são essenciais para o sucesso de nossos projetos.
 
 {% capture content %}
 
