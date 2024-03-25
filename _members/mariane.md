@@ -2,7 +2,7 @@
 name: Mariane azevedo
 image: images/team/mariane.jpg
 role: intern
-ex-member: false
+ex-member: true
 links:
   email: marianeazevedo.15@gmail.com
   lattes: "5788501413906324"

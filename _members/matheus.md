@@ -2,7 +2,7 @@
 name: Matheus
 #image: images/team/gabriel.jpg
 role: ic
-ex-member: false
+ex-member: true
 #aliases:
 #  - "Morais"
 links:
