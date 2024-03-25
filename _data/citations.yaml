@@ -1,5 +1,24 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
+- id: doi:10.1021/acsaem.3c02739
+  title: Triggering Synergy between p-Type Sputter-Deposited FeMnO<sub><i>x</i></sub>
+    or FeNiO<sub><i>x</i></sub> and W-Doped BiVO<sub>4</sub> for Enhanced Oxygen Evolution
+  authors:
+  - Niqab Khan
+  - Ariadne Koche
+  - Higor Andrade Centurion
+  - Lucas Rabelo
+  - Jefferson Bettini
+  - Gabriel T. dos Santos
+  - Flavio Leandro Souza
+  - "Renato V. Gon\xE7alves"
+  - Sherdil Khan
+  publisher: ACS Applied Energy Materials
+  date: '2024-03-12'
+  link: https://doi.org/gtnwhc
+  orcid: 0000-0003-2036-9123
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.1016/j.matlet.2023.135781
   title: Charge dynamics in semiconductors for photoelectrochemical water splitting
   authors:
