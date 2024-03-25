@@ -6,6 +6,7 @@ ex-member: false
 aliases:
   - "Gutierrez"
   - "Ingrid Rodriguez"
+  - "Ingrid"
 links:
   orcid: 0000-0001-6345-7321
   linkedin: ingrid-rodriguez-266163205/

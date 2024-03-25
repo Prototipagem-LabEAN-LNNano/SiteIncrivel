@@ -7,9 +7,8 @@
 #    - tag teste
 
 - id: doi:10.1149/2162-8777/ac6114
-#  image: 
-#  tags:
-#    - tag teste
+  #image: 
+
 
 - id: doi:10.3390/nano12121957
   image: https://www.mdpi.com/nanomaterials/nanomaterials-12-01957/article_deploy/html/images/nanomaterials-12-01957-g001-550.jpg

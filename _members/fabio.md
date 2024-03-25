@@ -5,6 +5,8 @@ role: phd
 ex-member: false
 aliases:
   - "Pires F. A."
+  - "Fabio Pires"
+  - "Fabio A. Pires"
 links:
   lattes: "3364132758755812"
   orcid: 0000-0001-6762-2910

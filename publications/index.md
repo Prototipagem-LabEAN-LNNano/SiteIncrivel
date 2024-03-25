@@ -5,10 +5,9 @@ nav:
   tooltip: Trabalhos publicados
 ---
 
-# {% include icon.html icon="fa-solid fa-book" %}Publications
+# {% include icon.html icon="fa-solid fa-book" %}Publicações
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+Explore todos os trabalhos publicados pelo Laboratório de Energia Alternativa e Nanomateriais (LabEAN) neste espaço dedicado à pesquisa e inovação!
 
 {% comment %}
 {% include section.html %}
@@ -20,7 +19,7 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
 
 {% include section.html %}
 
-{% include search-box.html placeholder="Filter by years, people, subjects and more!" %}
+{% include search-box.html placeholder="Filtro por ano, pessoas, assuntos e mais!" %}
 
 {% include search-info.html %}
 

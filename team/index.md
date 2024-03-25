@@ -23,7 +23,7 @@ Nosso laboratório é composto por uma equipe altamente engajada e colaborativa 
 
 {% include section.html %}
 
-### Alumni
+### Ex-membros
 
 Descubra os talentos que fizeram parte da nossa jornada! Aqui, trazemos nossos ex-membros que tiveram valiosa contribuição aos nossos projetos.
 
