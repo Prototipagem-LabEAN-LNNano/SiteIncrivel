@@ -1,7 +1,7 @@
 ---
 title: Prof. Flavio
 nav:
-  order: 6
+  order: 7
   tooltip: About Prof. Flavio
 ---
 

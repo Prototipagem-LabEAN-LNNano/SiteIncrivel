@@ -1,8 +1,8 @@
 ---
-title: News
+title: Notícias
 nav:
   order: 1
-  tooltip: Posts, events and more
+  tooltip: Posts, eventos e mais !
 ---
 
 # {% include icon.html icon="fa-solid fa-newspaper" %}News

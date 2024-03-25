@@ -1,8 +1,8 @@
 ---
-title: Publications
+title: Publicações
 nav:
-  order: 2
-  tooltip: Published articles
+  order: 3
+  tooltip: Trabalhos publicados
 ---
 
 # {% include icon.html icon="fa-solid fa-book" %}Publications

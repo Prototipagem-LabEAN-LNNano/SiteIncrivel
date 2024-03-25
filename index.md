@@ -3,14 +3,14 @@
 
 {% include section.html size="full" %}{% include bgvideo.html %}{% include section.html %}
 
-# Latest News
+# Últimas Notícias 
 
 {% include latest-news.html %}
 
 {%
   include button.html
   link="news"
-  text="See more"
+  text="Veja mais"
   icon="fa-solid fa-arrow-right"
   newTab=false
 %}
@@ -23,13 +23,13 @@ Descrição de 3 linhas aprox. sobre o lab.
 
 {%
   include figure.html
-  image="images/home/group-photo.png"
+  image="images/photo.jpg"
   width="100%"
 %}
 
 {% include section.html %}
 
-## Highlights
+## Destaques
 
 {% capture text %}
 
@@ -38,7 +38,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 {%
   include button.html
   link="research"
-  text="See our publications"
+  text="Nossa Pesquisa"
   icon="fa-solid fa-arrow-right"
   flip=true
   style="bare"
@@ -50,8 +50,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 {%
   include feature.html
   image="images/photo.jpg"
-  link="research"
-  title="Our Research"
+  link="publications"
+  title="Conheça nosso trabalho"
   text=text
 %}
 
@@ -61,8 +61,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 {%
   include button.html
-  link="facilities"
-  text="Meet the Lab"
+  link="publications"
+  text="Acesse nossas publicações"
   icon="fa-solid fa-arrow-right"
   flip=true
   style="bare"
@@ -75,7 +75,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
   include feature.html
   image="images/photo.jpg"
   link="projects"
-  title="Our Infrastructure"
+  title="Artigos"
   flip=true
   style="bare"
   text=text
@@ -89,7 +89,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 {%
   include button.html
   link="team"
-  text="Meet our team"
+  text="Conheça o time"
   icon="fa-solid fa-arrow-right"
   flip=true
   style="bare"
@@ -102,6 +102,6 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
   include feature.html
   image="images/photo.jpg"
   link="team"
-  title="Our Team"
+  title="Nosso time"
   text=text
 %}

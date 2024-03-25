@@ -1,8 +1,8 @@
 ---
-title: Team
+title: Time
 nav:
-  order: 5
-  tooltip: Meet our team
+  order: 4
+  tooltip: Conheça o time
 ---
 
 # {% include icon.html icon="fa-solid fa-users" %}Team

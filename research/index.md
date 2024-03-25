@@ -1,8 +1,8 @@
 ---
-title: Research
+title: Nossa Pesquisa
 nav:
-  order: 3
-  tooltip: Meet our work
+  order: 2
+  tooltip: Conheça nosso trabalho
 ---
 
 {% include section.html %} 

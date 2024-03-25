@@ -1,8 +1,8 @@
 ---
-title: Contact
+title: Nossas Redes
 nav:
-  order: 7
-  tooltip: Find us
+  order: 5
+  tooltip: Nos encontre
 ---
 
 # {% include icon.html icon="fa-regular fa-envelope" %}Contact
