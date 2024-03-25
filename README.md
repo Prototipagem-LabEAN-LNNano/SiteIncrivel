@@ -1,4 +1,4 @@
-Visit **[labean.com.br](http://labean.com.br)** 🚀
+Visit **[labean.com.br](https://labean.com.br)** 🚀
 
 <h1 align="center">Lab Website Template</h1>
 <p align="center">
