@@ -3,7 +3,7 @@ name: Brenda
 #image: images/team/gabriel.jpg
 role: phd
 #aliases:
-ex-member: false
+ex-member: true
 links:
   #github: john-doe
 ---

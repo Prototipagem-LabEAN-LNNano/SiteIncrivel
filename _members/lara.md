@@ -2,7 +2,7 @@
 name: Lara Daminelli
 image: images/team/lara.jpeg
 role: phd
-ex-member: false
+ex-member: true
 aliases:
   - "Daminelli"
   - "Lara"

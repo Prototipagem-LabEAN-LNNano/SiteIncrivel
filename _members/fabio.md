@@ -11,7 +11,9 @@ links:
   lattes: "3364132758755812"
   orcid: 0000-0001-6762-2910
   email: fabio.ap06@gmail.com
+  instagram: prof.fabiopires
+  linkedin: fabio-pires-2b36ba26a/
 
 ---
 
-Químico formado pela Universidade Federal de São Carlos (UFSCar). Doutorando em Química Inorgânica pelo Instituto de Química da Universidade Estadual de Campinas (UNICAMP) e pesquisador colaborador do Laboratório Nacional de Nanotecnologia (LNNano) do Centro Nacional de Pesquisa em Energia e Materiais (CNPEM). Pesquisador dos ramos de Ciência dos Materiais, estudando propriedades estruturais, morfológicas, ópticas e eletroquímicas de nanoestruturas semicondutoras. Tem experiência em matrizes inorgânicas sólidas, dopagem, síntese hidrotérmica, síntese assistida por micro-ondas, síntese sol-gel, fotocatálise e fotoeletrocatálise. Ingressou na equipe em junho/2021. 
+Bacharel em Química pela Universidade Federal de São Carlos (UFSCar). Atualmente faço doutorado com ênfase em Química Inorgânica no Instituto de Química da Universidade Estadual de Campinas (UNICAMP) e sou pesquisador colaborador no Laboratório Nacional de Nanotecnologia (LNNano) do Centro Nacional de Pesquisa em Energia e Materiais (CNPEM). Sou pesquisador na área de Ciência de Materiais, com foco no estudo de propriedades estruturais, morfológicas, ópticas, fotoluminescentes, e (foto)eletroquímicas de matrizes inorgânicas e ênfase na síntese e caracterização de nanoestruturas semicondutoras para diversas aplicações, dentre elas dispositivos fotoeletroquímicos. Possuo experiência em design de nanoestruturas com alocação específica de dopantes, codopagens, propriedades luminescentes de íons terras-raras, síntese hidrotérmica, síntese assistida por micro-ondas, síntese sol-gel, fotocatálise e fotoeletrocatálise. Ingressou no LabEAN em março de 2021.
