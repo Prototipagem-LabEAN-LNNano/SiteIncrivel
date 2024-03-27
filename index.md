@@ -17,19 +17,7 @@
 
 {% include section.html %}
 
-# Slogan do Lab
-
-Descrição de 3 linhas aprox. sobre o lab.
-
-{%
-  include figure.html
-  image="images/photo.jpg"
-  width="100%"
-%}
-
-{% include section.html %}
-
-## Destaques
+## Explore o LabEAN
 
 {% capture text %}
 
@@ -62,7 +50,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 {%
   include button.html
   link="publications"
-  text="Acesse nossas publicações"
+  text="Artigos"
   icon="fa-solid fa-arrow-right"
   flip=true
   style="bare"
@@ -75,7 +63,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
   include feature.html
   image="images/photo.jpg"
   link="projects"
-  title="Artigos"
+  title="Acesse nossas publicações"
   flip=true
   style="bare"
   text=text
@@ -89,7 +77,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 {%
   include button.html
   link="team"
-  text="Conheça o time"
+  text="Nossos membros"
   icon="fa-solid fa-arrow-right"
   flip=true
   style="bare"
@@ -102,6 +90,6 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
   include feature.html
   image="images/photo.jpg"
   link="team"
-  title="Nosso time"
+  title="Descubra quem faz parte do time"
   text=text
 %}
