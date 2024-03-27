@@ -4,7 +4,7 @@ image: images/team/gabriel.jpg
 role: devtec
 ex-member: false
 aliases:
-  - "Morais"
+  - "Gabriel H. Morais"
 links:
   github: GHMorais11
   linkedin: gabriel-morais-770112195/

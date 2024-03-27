@@ -9,7 +9,6 @@ aliases:
   - "Pires F. A."
   - "Fabio Pires"
   - "Fabio A. Pires"
-  - "Pires"
 
 #preencha os links que desejar (apenas o final dos links)
 links:
