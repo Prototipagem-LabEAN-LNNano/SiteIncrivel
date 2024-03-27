@@ -8,7 +8,7 @@ aliases:
   - "Flavio L. Souza
   - "F. L. Souza"
 links:
-#  github: john-doe
+
 ---
 
 .
