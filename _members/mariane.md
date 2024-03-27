@@ -9,5 +9,4 @@ links:
 
 ---
 
-Undergraduate student in Technological Chemistry at Campinas State University (UNICAMP). I worked with electrooxidation of glycerol using perovskites as electrocatalysts during my scientific initiation.  
-I joined the alternative energy and nanomaterials laboratory (LEAN) as an intern in early 2023 and currently work with photoelectrochemistry for green hydrogen generation.
+Sou estudante de graduação em Química Tecnológica na Universidade Estadual de Campinas (UNICAMP). Trabalhei com a eletrooxidação de glicerol usando perovskitas como eletrocatalisadores durante minha iniciação científica. Em 2023, ingressei no Laboratório de Energia Alternativa e Nanomateriais (LabEAN) como estagiária e trabalhei com fotoeletroquímica para a geração de hidrogênio verde.

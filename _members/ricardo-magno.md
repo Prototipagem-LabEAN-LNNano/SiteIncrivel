@@ -13,4 +13,4 @@ links:
   lattes: "0709560787555147"
 ---
 
-Born in Brazil, 33 years old. Bachelor graduate in Physics Engineering, 2016, from the Federal university of São Carlos (UFSCar) and Ph.D. graduate in Materials Science and Technology, 2023, from the São Paulo State University (Unesp), with expertise in fabrication and characterization of microdevices at cleanroom facility. In the Group of Artificial Photosynthesis since 2022, currently participates in the development of the technology in hematite-based photoelectrochemical cells, as a Postdoc Fellow. 
+Sou graduado em Engenharia Física pela Universidade Federal de São Carlos (UFSCar) em 2016 e doutorado em Ciência e Tecnologia de Materiais pela Universidade Estadual de São Paulo (Unesp) em 2023, com expertise na fabricação e caracterização de microdispositivos em instalações limpas. Fiz parte do LabEAN no de 2022 a 2023, e atualmente participei do desenvolvimento da tecnologia em células fotoeletroquímicas baseadas em hematita, como pesquisador pós-doutorando.

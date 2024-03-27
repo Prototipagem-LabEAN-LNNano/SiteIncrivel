@@ -3,10 +3,10 @@ name: Gustavo Morishita
 image: images/team/gustavo.jpeg
 role: postdoc
 ex-member: false
-#aliases:
-#  - "Morais"
+aliases:
+  - "Morishita"
 links:
-#  github: john-doe
+  email: gustavo.morishita@lnnano.cnpem.br
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+.
