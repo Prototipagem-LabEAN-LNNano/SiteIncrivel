@@ -3,8 +3,10 @@ name: Flavio Souza
 #image: images/team/gabriel.jpg
 role: prof
 ex-member: false
-#aliases:
-#  - "Morais"
+aliases:
+  - "Flavio Leandro Souza"
+  - "Flavio L. Souza
+  - "F. L. Souza"
 links:
 #  github: john-doe
 ---
