@@ -90,7 +90,7 @@ phone:
 
 address:
   icon: fa-solid fa-map-location-dot
-  text: Address
+  text: Endereço
   tooltip: Address
 
 search:
