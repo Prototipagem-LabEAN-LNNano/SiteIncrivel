@@ -23,6 +23,24 @@
   orcid: 0000-0003-2036-9123
   plugin: orcid.py
   file: orcid.yaml
+- id: doi:10.1016/j.ijhydene.2024.01.221
+  title: Overcoming scale-up challenges for nanostructured photoelectrodes via one-step
+    interface engineering
+  authors:
+  - "Ingrid Rodr\xEDguez-Guti\xE9rrez"
+  - Lizandra R.P. Peregrino
+  - Karen C. Bedin
+  - Gustavo M. Morishita
+  - Gabriel H. Morais
+  - Ricardo H.R. Castro
+  - Edson R. Leite
+  - Flavio L. Souza
+  publisher: International Journal of Hydrogen Energy
+  date: '2024-03-01'
+  link: https://doi.org/gtph59
+  orcid: 0000-0003-2036-9123
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.1016/j.matlet.2023.135781
   title: Charge dynamics in semiconductors for photoelectrochemical water splitting
   authors:
@@ -34,6 +52,43 @@
   publisher: Materials Letters
   date: '2024-02-01'
   link: https://doi.org/gtgzvs
+  orcid: 0000-0003-2036-9123
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/j.apsusc.2023.158867
+  title: Nanostructured FTO/Zr-hematite interfaces for solar water-splitting applications
+  authors:
+  - Gabriel T. Dos Santos
+  - Karen C. Bedin
+  - Tanna E.R. Fiuza
+  - "Ingrid Rodr\xEDguez-Guti\xE9rrez"
+  - Paulo F.P. Fichtner
+  - Flavio L. Souza
+  - Jefferson Bettini
+  publisher: Applied Surface Science
+  date: '2024-02-01'
+  link: https://doi.org/gtph6b
+  orcid: 0000-0003-2036-9123
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1039/d3ta07721g
+  title: Dual modification on hematite to minimize small polaron effects and charge
+    recombination for sustainable solar water splitting
+  authors:
+  - "Nath\xE1lia C. Verissimo"
+  - Fabio A. Pires
+  - "Ingrid Rodr\xEDguez-Guti\xE9rrez"
+  - Jefferson Bettini
+  - Tanna E. R. Fiuza
+  - Cleyton A. Biffe
+  - Fabiano E. Montoro
+  - Gabriel R. Schleder
+  - Ricardo H. R. Castro
+  - Edson R. Leite
+  - Flavio L. Souza
+  publisher: Journal of Materials Chemistry A
+  date: '2024-01-01'
+  link: https://doi.org/gtph6c
   orcid: 0000-0003-2036-9123
   plugin: orcid.py
   file: orcid.yaml
