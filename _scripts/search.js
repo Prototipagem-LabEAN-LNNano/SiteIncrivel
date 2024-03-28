@@ -135,9 +135,13 @@
       boxes.forEach((info) => (info.style.display = ""));
 
       // info template
-      let info = "";
-      info += `Showing ${x.toLocaleString()} of ${n.toLocaleString()} results<br>`;
-      info += "<a href='./'>Clear search</a>";
+      let info;
+
+      if(x == 0)      info = `Nenhum resultado encontrado.`
+      else if(x == 1) info = `1 resultado encontrado.`;
+      else            info = `${x.toLocaleString()} resultados encontrados.`;
+
+      info += "<br><a href='./'>Limpar busca</a>";
 
       // set info HTML string
       boxes.forEach((el) => (el.innerHTML = info));
