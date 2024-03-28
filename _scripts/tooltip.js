@@ -14,7 +14,7 @@ function clipboardTippy(e) { // define here because it`s used in anchors.js
     appendTo: () => document.body,
     onShow(instance) {
       // Reset the tooltip content on each show
-      instance.setContent(instance.reference.dataset.clipboardText.trim() + ' (Click to copy)');
+      instance.setContent(instance.reference.dataset.clipboardText.trim() + ' (Clique para copiar)');
     },
     onTrigger(instance, event) {
       if (event.type === 'click') {
@@ -22,13 +22,13 @@ function clipboardTippy(e) { // define here because it`s used in anchors.js
         navigator.clipboard.writeText(instance.reference.dataset.clipboardText.trim())
           .then(() => {
             // Set the tooltip content to the copy feedback message
-            instance.setContent(instance.reference.dataset.clipboardText.trim() + ' (Copied!)');
+            instance.setContent(instance.reference.dataset.clipboardText.trim() + ' (Copiado!)');
             setTimeout(() => {
               instance.hide();
             }, 1000);
           })
           .catch(() => {
-            instance.setContent(instance.reference.dataset.clipboardText.trim() + ' (Copy failed D:)');
+            instance.setContent(instance.reference.dataset.clipboardText.trim() + ' (Falha ao copiar D:)');
           });
       }
     }
