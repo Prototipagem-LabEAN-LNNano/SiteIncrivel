@@ -21,7 +21,7 @@
 
 {% capture text %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Convidamos você a conhecer as pesquisas em nanomateriais e energia alternativa realizadas no LabEAN. Descubra as inovações que estão moldando o futuro sustentável.
 
 {%
   include button.html
@@ -38,14 +38,14 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 {%
   include feature.html
   image="images/photo.jpg"
-  link="publications"
+  link="research"
   title="Conheça nosso trabalho"
   text=text
 %}
 
 {% capture text %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Explore o conhecimento em primeira mão! Navegue pelos nossos artigos sobre nanomateriais e energia alternativa e conheça as descobertas e inovações mais recentes!
 
 {%
   include button.html
@@ -62,7 +62,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 {%
   include feature.html
   image="images/photo.jpg"
-  link="projects"
+  link="publications"
   title="Acesse nossas publicações"
   flip=true
   style="bare"
@@ -72,8 +72,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 {% capture text %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
+Convidamos você a conhecer nossa equipe de pesquisadores e colaboradores dedicados, cujo trabalho é fundamental para o avanço das tecnologias sustentáveis. Conheça quem está impulsionando a inovação no LabEAN!
 {%
   include button.html
   link="team"

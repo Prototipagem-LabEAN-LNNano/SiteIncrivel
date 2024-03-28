@@ -7,9 +7,7 @@ nav:
 
 # {% include icon.html icon="fa-regular fa-envelope" %}Contato
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+Nosso laboratório faz parte do Laboratório Nacional de Nanotecnologia [(LNNano)](https://lnnano.cnpem.br/) localizado no Centro Nacional de Pesquisa em Energia e Nanomateriais [(CNPEM)](https://cnpem.br/) do Brasil.
 
 {%
   include button.html
@@ -37,7 +35,6 @@ nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 {%
   include figure.html
   image="images/photo.jpg"
-  caption="Lorem ipsum"
 %}
 
 {% endcapture %}
@@ -47,7 +44,6 @@ nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 {%
   include figure.html
   image="images/photo.jpg"
-  caption="Lorem ipsum"
 %}
 
 {% endcapture %}

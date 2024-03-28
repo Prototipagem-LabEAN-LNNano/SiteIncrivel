@@ -1441,11 +1441,5 @@
   date: '2022-06-07'
   link: https://doi.org/grt3jx
   image: https://www.mdpi.com/nanomaterials/nanomaterials-12-01957/article_deploy/html/images/nanomaterials-12-01957-g001-550.jpg
-  tags:
-  - iron oxide
-  - solution chemistry
-  - photoanodes
-  - hydrothermal synthesis
-  - sol-gel method
   plugin: sources.py
   file: sources.yaml
