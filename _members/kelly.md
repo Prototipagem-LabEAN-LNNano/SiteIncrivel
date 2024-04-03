@@ -1,12 +1,14 @@
 ---
-name: Kelly
-#image: images/team/gabriel.jpg
+name: Kelly Thomaz
+image: images/team/kelly.jpg
 role: phd
 ex-member: false
-#aliases:
-#  - "Morais"
+
+aliases:
+  - "Kelly T.C. Thomaz"
+
 links:
-#  github: john-doe
+ linkedin: kelly-thomaz-7a042aab/
 ---
 
-.
+Mestre em química. Universidade Federal do Pará. Estudante de Pós-Graduação no Centro Nacional de Pesquisa em Energia e Materiais (CNPEM).
