@@ -1,12 +1,15 @@
 ---
 name: Nathalia
-#image: images/team/gabriel.jpg
+image: images/team/nathalia.jpg
 role: postdoc
 ex-member: true
-#aliases:
-#  - "Morais"
+
+aliases:
+    - "Nathália C. Verissimo"
+    - "Nathália Verissimo"
+
 links:
-#  github: john-doe
+  linkedin: nathália-c-verissimo-21a423199/
 ---
 
-.
+
