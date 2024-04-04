@@ -6,6 +6,7 @@ ex-member: true
 aliases:
   - Ricardo M. L.
   - Ricardo M. L. Silva
+  - Ricardo M. Lopes
 links:
   linkedin: ricardo-magno-103b1691
   orcid: 0000-0001-5108-1179

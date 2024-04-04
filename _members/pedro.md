@@ -1,6 +1,6 @@
 ---
 name: Pedro
-#image: images/team/.jpg
+image: images/team/pedro.jpg
 role: ic
 ex-member: false
 #aliases:

@@ -1,6 +1,6 @@
 ---
 name: Murilo Pedroso
-image: images/team/.png
+image: images/team/murilo.jpg
 role: devtec
 ex-member: false
 
