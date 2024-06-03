@@ -73,11 +73,14 @@ jobs:
         uses: actions/github-script@v6
         with:
           script: |
-            const { owner, repo } = context.repo;
+            const owner = context.repo.owner;
+            const repo = context.repo.repo;
+            const head = `${owner}:citation-update`;
             const { data: pulls } = await github.pulls.list({
-              owner,
-              repo,
-              head: `${owner}:citation-update`
+              owner: owner,
+              repo: repo,
+              head: head,
+              state: 'open'
             });
             return pulls.length > 0 ? pulls[0].number : null;
 
