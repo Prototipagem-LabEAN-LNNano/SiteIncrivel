@@ -76,7 +76,7 @@ jobs:
             const owner = context.repo.owner;
             const repo = context.repo.repo;
             const head = `${owner}:citation-update`;
-            const { data: pulls } = await github.pulls.list({
+            const { data: pulls } = await github.rest.pulls.list({
               owner: owner,
               repo: repo,
               head: head,
