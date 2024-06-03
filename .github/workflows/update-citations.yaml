@@ -68,14 +68,31 @@ jobs:
         with:
           commit_message: "Update citations"
 
-      - name: Open pull request with updated citations
+      - name: Find existing pull request
+        id: find_pr
+        uses: actions/github-script@v6
+        with:
+          script: |
+            const { owner, repo } = context.repo;
+            const { data: pulls } = await github.pulls.list({
+              owner,
+              repo,
+              head: `${owner}:citation-update`
+            });
+            return pulls.length > 0 ? pulls[0].number : null;
+
+      - name: Create or update pull request
         if: |
           steps.changed.outputs.files_changed == 'true' &&
           inputs.open-pr == true
-        uses: peter-evans/create-pull-request@v4
-        with:
-          branch: citation-update
-          title: Periodic citation update
+        run: |
+          if [ "${{ steps.find_pr.outputs.result }}" != "null" ]; then
+            gh pr edit ${{ steps.find_pr.outputs.result }} --title "Periodic citation update" --body "This is an automated update of citations."
+          else
+            gh pr create --head citation-update --title "Periodic citation update" --body "This is an automated update of citations."
+          fi
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
     outputs:
       changed: ${{ steps.changed.outputs.files_changed }}
