@@ -1,0 +1,179 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+  box-shadow: var(--shadow);
+  position: sticky !important;
+  top: 0;
+  z-index: 10 !important;
+}
+
+header a {
+  color: var(--text);
+  text-decoration: none;
+}
+
+.home {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+  flex-basis: 0;
+  flex-grow: 1;
+  max-width: 100%;
+}
+
+.logo {
+  height: 40px;
+}
+
+.logo > * {
+  object-fit: contain;
+  width: auto;
+  height: 100%;
+}
+
+.title {
+  display: flex;
+  justify-content: flex-start;
+  align-items: baseline;
+  flex-wrap: wrap;
+  min-width: 0;
+  font-family: var(--title);
+  text-align: left;
+}
+
+.title > *:first-child {
+  margin-right: 10px;
+  font-size: var(--large);
+}
+
+.title > *:last-child {
+  color: var(--gray);
+  font-weight: var(--thin);
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  font-family: var(--heading);
+  text-transform: uppercase;
+}
+
+nav > a {
+  padding: 9px;
+}
+
+nav > a:hover {
+  color: var(--primary);
+}
+
+header .navbar-close {
+  display: none;
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+header .navbar-toggle {
+  display: none;
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+header .navbar-toggle-icon-bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  background-color: var(--text);
+  margin: 5px 0;
+}
+@media (max-width: 900px) {
+  header {
+    flex-direction: row !important;
+    justify-content: flex-end;
+  }
+  header .nav-toggle {
+    display: flex;
+  }
+  header nav {
+    align-items: flex-end;
+    flex-direction: column;
+    position: fixed;
+    top: 0px;
+    right: -100%;
+    padding: 100px 50px !important;
+    height: 100vh;
+    background-color: var(--background);
+    padding: 10px;
+    transition: right 0.3s ease-in-out;
+    justify-content: initial;
+    -webkit-box-shadow: -10px 0px 24px -7px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -10px 0px 24px -7px rgba(0, 0, 0, 0.75);
+    box-shadow: -10px 0px 24px -7px rgba(0, 0, 0, 0.75);
+  }
+  header nav:hover .link {
+    opacity: 1;
+  }
+  header nav .navbar-close {
+    display: block;
+    color: var(--text);
+    position: absolute;
+    right: 30px;
+    top: 30px;
+  }
+  header nav.show {
+    right: 0;
+  }
+  header .navbar-toggle {
+    display: block;
+  }
+}
+@media (max-width: 1200px) {
+  header .title > *:not(:first-child) {
+    display: none;
+  }
+}
+
+header[data-big] {
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(3px);
+  padding: 35px 20px;
+}
+header[data-big] .logo {
+  height: 80px;
+}
+header[data-big] .title {
+  flex-direction: column;
+}
+header[data-big] .title > *:first-child {
+  font-size: var(--xxl);
+}
+header[data-big] .title > *:last-child {
+  font-size: var(--large);
+}
+header[data-big] nav {
+  font-size: 1.25em;
+}
+@media (max-width: 1350px) {
+  header[data-big] .title > *:not(:first-child) {
+    display: none;
+  }
+}
+@media (max-width: 1100px) {
+  header[data-big] {
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
+/*# sourceMappingURL=header.css.map */
