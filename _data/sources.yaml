@@ -288,3 +288,7 @@
 
 - id: doi:10.1007/978-3-319-62800-4
   ignore: true
+
+- id: doi:10.1016/j.apsusc.2023.158867
+  image: images/publications/papergabriel.jpg
+
