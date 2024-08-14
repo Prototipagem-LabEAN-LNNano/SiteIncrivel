@@ -2,7 +2,7 @@
 name: Gustavo Morishita
 image: images/team/gustavo.jpeg
 role: postdoc
-ex-member: false
+ex-member: true
 aliases:
   - "Morishita"
 links:
