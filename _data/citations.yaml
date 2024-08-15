@@ -13,7 +13,7 @@
   orcid: 0000-0003-2036-9123
   plugin: sources.py
   file: sources.yaml
-  image: https://ars-els-cdn-com.ez106.periodicos.capes.gov.br/content/image/1-s2.0-S0167577X24006098-gr1.jpg
+  image: images/publications/paperkelly.jpg
 - id: doi:10.1021/acsami.3c18643
   title: Enhanced Power Generation Using a Dual-Surface-Modified Hematite Photoanode
     in a Direct Glyphosate Photo Fuel Cell
