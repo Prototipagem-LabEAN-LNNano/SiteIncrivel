@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2024-08-15T19:47:42+00:00</updated><id>/feed.xml</id><title type="html">LabEAN</title><subtitle>Nosso laboratório é dedicado ao desenvolvimento de tecnologias de energia alternativa e nanomateriais, buscando soluções inovadoras para um futuro sustentável.</subtitle><entry><title type="html">Novo livro com edição e participação de pesquisadores do LabEAN</title><link href="/2024/03/22/livro.html" rel="alternate" type="text/html" title="Novo livro com edição e participação de pesquisadores do LabEAN" /><published>2024-03-22T00:00:00+00:00</published><updated>2024-08-15T19:45:17+00:00</updated><id>/2024/03/22/livro</id><content type="html" xml:base="/2024/03/22/livro.html"><![CDATA[<h3 id="novidades-na-transição-energética-geração-de-combustíveis-com-energia-solar">Novidades na Transição Energética: Geração de Combustíveis com Energia Solar</h3>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2024-08-15T20:07:30+00:00</updated><id>/feed.xml</id><title type="html">LabEAN</title><subtitle>Nosso laboratório é dedicado ao desenvolvimento de tecnologias de energia alternativa e nanomateriais, buscando soluções inovadoras para um futuro sustentável.</subtitle><entry><title type="html">Novo livro com edição e participação de pesquisadores do LabEAN</title><link href="/2024/03/22/livro.html" rel="alternate" type="text/html" title="Novo livro com edição e participação de pesquisadores do LabEAN" /><published>2024-03-22T00:00:00+00:00</published><updated>2024-08-15T20:03:24+00:00</updated><id>/2024/03/22/livro</id><content type="html" xml:base="/2024/03/22/livro.html"><![CDATA[<h3 id="novidades-na-transição-energética-geração-de-combustíveis-com-energia-solar">Novidades na Transição Energética: Geração de Combustíveis com Energia Solar</h3>
 <p><img src="https://www.uniroma1.it/sites/default/files/styles/1150_300/public/adobestock_190728352_2.jpeg?itok=9opfj_Qv&amp;c=aff6c20136e8666c3da7d9a5215b0b63" alt="Energia Solar" /></p>
 
 <p>A transição energética mundial é um dos temas mais discutidos atualmente, e cada estratégia de obtenção de energia renovável desempenha um papel crucial nesse processo. O que desponta como uma das possibilidades mais promissoras é a geração de combustíveis a partir da energia solar.</p>
@@ -17,4 +17,124 @@
 
 <p>Se você está interessado em entender melhor como a energia solar pode ser a chave para um futuro mais limpo e sustentável, não deixe de conferir este livro inovador. Clique <a href="https://www.wiley.com/en-be/Conversion+of+Water+and+CO2+to+Fuels+using+Solar+Energy:+Science,+Technology+and+Materials-p-9781119600893">aqui</a> para acessar o livro completo e embarque nessa jornada de descoberta e inovação.</p>
 
-<p>Junte-se à revolução energética e faça parte da mudança para um mundo mais verde e equilibrado!</p>]]></content><author><name>fabio</name></author><category term="Publicação" /><category term="Energia alternativa" /><summary type="html"><![CDATA[Novidades na Transição Energética: Geração de Combustíveis com Energia Solar]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="/images/posts/2024-03-22-livro/livro.jpg" /><media:content medium="image" url="/images/posts/2024-03-22-livro/livro.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+<p>Junte-se à revolução energética e faça parte da mudança para um mundo mais verde e equilibrado!</p>]]></content><author><name>fabio</name></author><category term="Publicação" /><category term="Energia alternativa" /><summary type="html"><![CDATA[Novidades na Transição Energética: Geração de Combustíveis com Energia Solar]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="/images/posts/2024-03-22-livro/livro.jpg" /><media:content medium="image" url="/images/posts/2024-03-22-livro/livro.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Post Teste/Tutorial</title><link href="/2022/02/28/example-post-4.html" rel="alternate" type="text/html" title="Post Teste/Tutorial" /><published>2022-02-28T00:00:00+00:00</published><updated>2024-08-15T20:03:24+00:00</updated><id>/2022/02/28/example-post-4</id><content type="html" xml:base="/2022/02/28/example-post-4.html"><![CDATA[<h2 id="markdown">Markdown</h2>
+
+<h4 id="títulos">Títulos</h4>
+
+<h1 id="top-level-heading">Top level heading</h1>
+<h2 id="secondary-heading">Secondary heading</h2>
+<h3 id="very-specific-heading">Very specific heading</h3>
+<h4 id="even-more-specific-heading">Even more specific heading</h4>
+
+<p>Para quebrar o parágrafo é preciso separar as linhas por uma linha vazia</p>
+
+<p>Linha 1
+Linha 2 &lt;- Sem linha vazia</p>
+
+<p>Linha 1</p>
+
+<p>Linha 2 &lt;- Com linha vazia</p>
+
+<h4 id="modificação-no-texto">Modificação no texto</h4>
+
+<p><em>texto itálico</em></p>
+
+<p><strong>texto negrito</strong></p>
+
+<p><del>texto cortado</del></p>
+
+<h4 id="listas">Listas</h4>
+
+<ul>
+  <li>Item a</li>
+  <li>Item b</li>
+  <li>Item c</li>
+</ul>
+
+<ol>
+  <li>Item a</li>
+  <li>Item b</li>
+  <li>Item c</li>
+</ol>
+
+<h4 id="centralizando">Centralizando</h4>
+
+<p>Texto não centralizado: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+<p class="center">Texto centralizado: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+<h4 id="links">Links</h4>
+
+<p>Link externo <a href="https://www.google.com/">Texto para o usuário</a></p>
+
+<p>Referencia para outra página, no site: <a href="/research">Pesquisa</a></p>
+
+<p>Referencia algum membro do time: <a href="/members/gabriel">El hombre</a></p>
+
+<!-- section break -->
+<!--
+  background: ;
+  dark: ;
+  size: ;
+-->
+
+<h2 id="seções">Seções</h2>
+
+<p>As seções tem cores alternadas.</p>
+
+<!-- section break -->
+<!--
+  background: ;
+  dark: ;
+  size: ;
+-->
+
+<p>Texto após uma quebra de seção</p>
+
+<!-- section break -->
+<!--
+  background: ;
+  dark: ;
+  size: ;
+-->
+
+<p>Texto após outra quebra de seção</p>
+
+<!-- section break -->
+<!--
+  background: ;
+  dark: ;
+  size: ;
+-->
+
+<h2 id="figuras">Figuras</h2>
+
+<figure class="figure">
+  <a class="figure-image" aria-label="Legenda da foto">
+    <img src="/images/posts/example-post-4/img.png" style="
+        width: auto;
+        max-height: unset;
+      " alt="Legenda da foto" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
+  </a>
+  
+    <figcaption class="figure-caption">
+      Legenda da foto
+
+    </figcaption>
+  
+</figure>
+
+<!-- section break -->
+<!--
+  background: ;
+  dark: ;
+  size: ;
+-->
+
+<h2 id="vídeo">Vídeo</h2>
+
+<p class="full"><img src="https://www.youtube.com/watch?v=worP6qwyBGQ" alt="" /></p>
+
+<p class="full"><img src="https://www.dailymotion.com/video/x7tfyq3" alt="" /></p>
+
+<p class="full"><img src="https://vimeo.com/263856289" alt="" /></p>]]></content><author><name>Thiago</name></author><category term="exemplo" /><summary type="html"><![CDATA[Markdown]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="/images/posts/example-post-4/img.png" /><media:content medium="image" url="/images/posts/example-post-4/img.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
