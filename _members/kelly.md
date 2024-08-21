@@ -2,7 +2,7 @@
 name: Kelly Thomaz
 image: images/team/kelly.jpg
 role: phd
-ex-member: false
+ex-member: true
 
 aliases:
   - "Kelly T.C. Thomaz"
