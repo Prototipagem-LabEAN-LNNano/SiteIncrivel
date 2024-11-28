@@ -1,0 +1,6 @@
+** Assumindo que as orientações de instalação do repositório oficial já foram seguidas:
+
+- Abra o app Docker Desktop
+- Vá para a pasta geral do site > botão direito > GIT bash here
+- Digite "./.docker/run.sh"
+- Basta usar o URL gerado.
