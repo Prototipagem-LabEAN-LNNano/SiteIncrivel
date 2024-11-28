@@ -1,7 +1,7 @@
 ---
 name: Mariana Dotta
 image: images/team/mariana.jpg
-role: intern
+role: phd
 ex-member: false
 links:
   email: marianadotta12@gmail.com

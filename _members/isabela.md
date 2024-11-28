@@ -1,6 +1,6 @@
 ---
-name: Pedro
-image: images/team/pedro.jpg
+name: Isabela Marçal
+image: images/team/-.jpg
 role: intern
 ex-member: false
 #aliases:
