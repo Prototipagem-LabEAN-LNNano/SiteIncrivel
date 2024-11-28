@@ -1,6 +1,6 @@
 ---
 name: Karen Cristina Bedin 
-image: images/team/karen.jpeg
+image: images/team/karen.jpg
 role: postdoc
 ex-member: false 
 

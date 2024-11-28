@@ -1,6 +1,6 @@
 ---
 name: Lizandra Peregrino
-image: images/team/lizandra.png
+image: images/team/lizandra.jpg
 role: labtec
 ex-member: false
  
