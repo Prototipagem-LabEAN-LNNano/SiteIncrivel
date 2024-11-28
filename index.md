@@ -37,7 +37,7 @@ Convidamos você a conhecer as pesquisas em nanomateriais e energia alternativa 
 
 {%
   include feature.html
-  image="images/photo.jpg"
+  image="images/home/trabalho.jpg"
   link="research"
   title="Conheça nosso trabalho"
   text=text
@@ -61,7 +61,7 @@ Explore o conhecimento em primeira mão! Navegue pelos nossos artigos sobre nano
 
 {%
   include feature.html
-  image="images/photo.jpg"
+  image="images/home/capas.jpg"
   link="publications"
   title="Acesse nossas publicações"
   flip=true
@@ -87,7 +87,7 @@ Convidamos você a conhecer nossa equipe de pesquisadores e colaboradores dedica
 
 {%
   include feature.html
-  image="images/photo.jpg"
+  image="images/home/time.jpeg"
   link="team"
   title="Descubra quem faz parte do time"
   text=text

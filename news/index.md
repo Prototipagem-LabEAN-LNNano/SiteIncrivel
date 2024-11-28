@@ -1,7 +1,7 @@
 ---
 title: Notícias
 nav:
-  order: 1
+  order: 4
   tooltip: Posts, eventos e mais !
 ---
 

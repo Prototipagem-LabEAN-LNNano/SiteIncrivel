@@ -1,6 +1,6 @@
 ---
 name: Isabela Marçal
-image: images/team/-.jpg
+image: images/team/isabela.jpg
 role: intern
 ex-member: false
 #aliases:

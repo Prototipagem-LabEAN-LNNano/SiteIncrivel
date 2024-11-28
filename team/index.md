@@ -1,7 +1,7 @@
 ---
 title: Time
 nav:
-  order: 4
+  order: 1
   tooltip: Conheça o time
 ---
 
