@@ -1,5 +1,5 @@
 ---
-name: Pedro
+name: Pedro Mello
 image: images/team/pedro.jpg
 role: intern
 ex-member: false
