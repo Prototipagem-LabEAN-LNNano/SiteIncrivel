@@ -45,7 +45,7 @@ Convidamos você a conhecer as pesquisas em nanomateriais e energia alternativa 
 
 {% capture text %}
 
-Explore o conhecimento em primeira mão! Navegue pelos nossos artigos sobre nanomateriais e energia alternativa e conheça as descobertas e inovações mais recentes!
+Explore o conhecimento em primeira mão! Navegue pelos nossos artigos e conheça as descobertas e inovações mais recentes!
 
 {%
   include button.html
@@ -72,7 +72,8 @@ Explore o conhecimento em primeira mão! Navegue pelos nossos artigos sobre nano
 
 {% capture text %}
 
-Convidamos você a conhecer nossa equipe de pesquisadores e colaboradores dedicados, cujo trabalho é fundamental para o avanço das tecnologias sustentáveis. Conheça quem está impulsionando a inovação no LabEAN!
+Conheça a equipe do LabEAN, formada por pesquisadores e colaboradores que contribuem para o desenvolvimento de tecnologias sustentáveis e inovadoras.
+
 {%
   include button.html
   link="team"
